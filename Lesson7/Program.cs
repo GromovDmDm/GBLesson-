@@ -136,3 +136,33 @@
 // Show2dArray(array);
 
 // ShowArray(AverageNumber(array));
+
+// void ShowNumber (int m, int n) {
+//     if(n == m) {
+//        Console.Write(n + " "); 
+//     }
+//     if(n < m) {
+//         ShowNumber (m-1, n);
+//         Console.Write(m + " ");
+//     }
+//     if(n > m) {
+//         ShowNumber (m, n-1);
+//         Console.Write(n + " ");
+//     }
+// }
+
+// ShowNumber(1,5);
+
+// double ShowNumber (double a, double b) {
+//     if(b < 0) { 
+//         return 1/a * ShowNumber(a, b + 1);
+//     }   
+//     if(b > 0) { 
+//         return a * ShowNumber(a, b - 1);
+//     }
+//     return 1;
+// }
+// Console.Write(ShowNumber(2,-3));
+
+
+
